@@ -1,3 +1,8 @@
+<div align="center">
+
+<img src="./assets/arise-snake.svg" width="100%" />
+
+</div>
 
 <div align="center">
 
