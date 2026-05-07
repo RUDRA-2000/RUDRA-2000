@@ -1,85 +1,88 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="700" cy="80" r="2" fill="#E9D5FF">
-      <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="980" cy="60" r="2" fill="#C084FC">
-      <animate attributeName="opacity" values="0;1;0" dur="4.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
 
-  <!-- ARISE Text -->
-  <text x="600" y="175"
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="100%" stop-color="#1a103d"/>
+    </linearGradient>
+
+    <linearGradient id="textGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E9D5FF"/>
+      <stop offset="50%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#7F00FF"/>
+    </linearGradient>
+
+    <linearGradient id="snakeGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B21B6"/>
+      <stop offset="100%" stop-color="#E9D5FF"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="24" fill="url(#bg)" />
+
+  <!-- ARISE -->
+  <text x="600"
+        y="170"
         text-anchor="middle"
         font-size="120"
-        font-family="Orbitron, Arial"
+        font-family="Arial"
         font-weight="900"
         letter-spacing="18"
         fill="url(#textGradient)"
         filter="url(#glow)">
+
     ARISE
 
-    <!-- Pulsing -->
     <animate attributeName="opacity"
-             values="0.85;1;0.85"
+             values="0.7;1;0.7"
              dur="3s"
              repeatCount="indefinite"/>
+
   </text>
 
   <!-- Snake Path -->
   <path id="snakePath"
         d="M120 220 C 280 100, 480 260, 650 150 S 980 120, 1080 170"
         fill="none"
-        stroke="transparent"
-        stroke-width="2"/>
-
-  <!-- Snake Trail -->
-  <path d="M120 220 C 280 100, 480 260, 650 150 S 980 120, 1080 170"
-        fill="none"
-        stroke="#5B21B6"
-        stroke-width="6"
-        opacity="0.15">
-
-    <animate attributeName="opacity"
-             values="0.1;0.3;0.1"
-             dur="2s"
-             repeatCount="indefinite"/>
-  </path>
+        stroke="transparent"/>
 
   <!-- Snake -->
-  <g filter="url(#snakeGlow)">
+  <circle r="14"
+          fill="url(#snakeGradient)"
+          filter="url(#glow)">
 
-    <!-- Snake Body -->
-    <circle r="14" fill="url(#snakeGradient)">
-      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
-        <mpath href="#snakePath"/>
-      </animateMotion>
-    </circle>
+    <animateMotion dur="8s"
+                   repeatCount="indefinite"
+                   rotate="auto">
 
-    <!-- Snake Eye -->
-    <circle r="3" fill="#ffffff">
-      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
-        <mpath href="#snakePath"/>
-      </animateMotion>
-    </circle>
+      <mpath href="#snakePath"/>
 
-  </g>
+    </animateMotion>
 
-  <!-- Shadow Aura -->
-  <ellipse cx="600" cy="250" rx="300" ry="30" fill="#7F00FF" opacity="0.08">
-    <animate attributeName="opacity"
-             values="0.05;0.12;0.05"
-             dur="4s"
-             repeatCount="indefinite"/>
-  </ellipse>
+  </circle>
 
-  <!-- Footer Quote -->
-  <text x="600" y="290"
+  <!-- Footer -->
+  <text x="600"
+        y="290"
         text-anchor="middle"
         font-size="20"
         font-family="Arial"
-        fill="#C084FC"
-        opacity="0.8">
+        fill="#C084FC">
+
     「 Arise. 」
+
   </text>
 
 </svg>
