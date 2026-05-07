@@ -1,11 +1,5 @@
 <div align="center">
 
-<img src="./assets/arise-snake.svg" width="100%" />
-
-</div>
-
-<div align="center">
-
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&pause=1000&color=8A2BE2&center=true&vCenter=true&width=700&lines=Hey+Fellowmate!+RUDRA+MRIGANKA+here..;%7C+SDE+%7C+Full+Stack+Developer+%7C;Quick+Learner+and+a+Team+Player+;Grinding+To+Level+Up" alt="Typing SVG" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0f0c29,50:302b63,100:24243e&text=Shadow%20Monarch%20Developer&fontAlign=50&fontAlignY=40&fontSize=42&fontColor=ffffff&animation=fadeIn" />
