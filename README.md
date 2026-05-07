@@ -1,16 +1,3 @@
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=40&pause=1000&color=8A2BE2&center=true&vCenter=true&width=500&lines=ARISE" />
-
-</div>
-
-<div align="center">
-
-## ⚡ ARISE ⚡
-
-<img src="https://raw.githubusercontent.com/RUDRA-2000/RUDRA-2000/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-
-</div>
 
 <div align="center">
 
