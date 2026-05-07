@@ -28,12 +28,6 @@ Status : Leveling Up
 • Scalable backend architectures using Spring Boot
 ```
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=java,python,js,ts,react,nextjs,nodejs,spring,mongodb,mysql,postgres,docker,aws,git,linux&perline=8" />
-
-</div>
-
 ---
 
 # ☄️ Tech Arsenal
@@ -77,6 +71,14 @@ Status : Leveling Up
 </tr>
 </table>
 </div>
+
+<div align="center">
+
+
+<img src="https://skillicons.dev/icons?i=java,python,js,ts,react,nextjs,nodejs,spring,mongodb,mysql,postgres,docker,aws,git,linux&perline=8" />
+
+</div>
+
 ---
 
 # 📈 GitHub Stats
@@ -105,7 +107,7 @@ Status : Leveling Up
 
 </div>
 
-# 🕶️ Dev Quote
+# 👽 Dev Quote
 
 ```cpp
 while(alive)
@@ -116,8 +118,9 @@ while(alive)
 }
 ```
 
+---
 
-# 🌌 Contribution Snake
+# 🐍 Contribution Snake
 
 <div align="center">
 
