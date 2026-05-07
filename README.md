@@ -86,14 +86,12 @@ Status : Leveling Up
 <p align="right"> 
   <img src="https://komarev.com/ghpvc/?username=RUDRA-2000&label=Hunters%20Visited&color=7F00FF&style=flat-square" /> 
 </p>
-
+<!---
 <div align="center">
-
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=RUDRA-2000&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117" />
-
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RUDRA-2000&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117" />
-
 </div>
+-->
 
 <div align="center">
 
@@ -103,7 +101,7 @@ Status : Leveling Up
 
 <div align="center">
 
-[![Rudra's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=RUDRA-2000&bg_color=0d1117&color=c084fc&line=8b5cf6&point=ffffff&area=true&hide_border=true&radius=12&custom_title=Activity%20Graph)](https://github.com/RUDRA-2000)
+[![Rudra's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=RUDRA-2000&bg_color=0d1117&color=c084fc&line=8b5cf6&point=ffffff&area=true&hide_border=true&radius=12&custom_title=%20Activity%20Graph)](https://github.com/RUDRA-2000)
 
 </div>
 
