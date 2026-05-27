@@ -40,9 +40,11 @@ Status : Leveling Up
 ### Frontend
 
 * React
+* Angular
 * Next.js
 * TailwindCSS
 * TypeScript
+* Flutter
 * Framer Motion
 
 </td>
@@ -52,20 +54,36 @@ Status : Leveling Up
 
 * Java
 * Spring Boot
+* C#
+* .Net
+* Go Fiber
 * Node.js
-* Express
 * REST APIs
 
 </td>
 <td valign="top">
 
-### AI / Tools
+### AI/Cloud Tech
 
 * OpenAI APIs
-* LangChain
-* Vector Databases
-* Docker
+* Claude
+* Antigravity
+* CoPilot
 * AWS
+* Azure
+
+</td>
+<td valign="top">
+
+### Tools
+
+* OAuth
+* JWT
+* Kafka
+* Redis
+* Docker
+* Git/Github
+* Grafana
 
 </td>
 </tr>
@@ -75,7 +93,7 @@ Status : Leveling Up
 <div align="center">
 
 
-<img src="https://skillicons.dev/icons?i=java,python,js,ts,react,nextjs,nodejs,spring,mongodb,mysql,postgres,docker,aws,git,linux&perline=8" />
+<img src="https://skillicons.dev/icons?i=java,cs,go,js,ts,react,angular,flutter,nextjs,nodejs,spring,mysql,postgres,mongodb,sqlite,redis,kafka,docker,aws,azure,git,github,grafana,postman&perline=8" />
 
 </div>
 
